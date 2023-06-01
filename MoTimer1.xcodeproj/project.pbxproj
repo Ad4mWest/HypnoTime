@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1331648929DC25C700BAA296 /* MagneticScope-AxelF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1331648829DC25C700BAA296 /* MagneticScope-AxelF.mp3 */; };
+		13A9513529D7236D004466A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9513429D7236D004466A9 /* AppDelegate.swift */; };
+		13A9513729D7236D004466A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9513629D7236D004466A9 /* SceneDelegate.swift */; };
+		13A9513929D7236D004466A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9513829D7236D004466A9 /* ViewController.swift */; };
+		13A9513C29D7236D004466A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A9513A29D7236D004466A9 /* Main.storyboard */; };
+		13A9513E29D7236F004466A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A9513D29D7236F004466A9 /* Assets.xcassets */; };
+		13A9514129D7236F004466A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A9513F29D7236F004466A9 /* LaunchScreen.storyboard */; };
+		13C618B82A1C2BB80002CE7A /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C618B72A1C2BB80002CE7A /* Statistics.swift */; };
+		13FB74E92A1D3E40000D414C /* TimerLogic .swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB74E82A1D3E40000D414C /* TimerLogic .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1331648829DC25C700BAA296 /* MagneticScope-AxelF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MagneticScope-AxelF.mp3"; sourceTree = "<group>"; };
+		13A9513129D7236D004466A9 /* MoTimer1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoTimer1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A9513429D7236D004466A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A9513629D7236D004466A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13A9513829D7236D004466A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A9513B29D7236D004466A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A9513D29D7236F004466A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A9514029D7236F004466A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A9514229D7236F004466A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C618B72A1C2BB80002CE7A /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		13FB74E82A1D3E40000D414C /* TimerLogic .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerLogic .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A9512E29D7236D004466A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A9512829D7236D004466A9 = {
+			isa = PBXGroup;
+			children = (
+				13FB74ED2A1D769B000D414C /* Presentation */,
+				13FB74EB2A1D75C8000D414C /* Services */,
+				13A9513329D7236D004466A9 /* MoTimer */,
+				13A9513229D7236D004466A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A9513229D7236D004466A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A9513129D7236D004466A9 /* MoTimer1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A9513329D7236D004466A9 /* MoTimer */ = {
+			isa = PBXGroup;
+			children = (
+				13A9514229D7236F004466A9 /* Info.plist */,
+				13FB74EC2A1D75F6000D414C /* Resources */,
+			);
+			path = MoTimer;
+			sourceTree = "<group>";
+		};
+		13FB74EB2A1D75C8000D414C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13C618B72A1C2BB80002CE7A /* Statistics.swift */,
+				13FB74E82A1D3E40000D414C /* TimerLogic .swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13FB74EC2A1D75F6000D414C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13A9513429D7236D004466A9 /* AppDelegate.swift */,
+				13A9513D29D7236F004466A9 /* Assets.xcassets */,
+				13A9513F29D7236F004466A9 /* LaunchScreen.storyboard */,
+				13A9513629D7236D004466A9 /* SceneDelegate.swift */,
+				1331648829DC25C700BAA296 /* MagneticScope-AxelF.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13FB74ED2A1D769B000D414C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				13A9513829D7236D004466A9 /* ViewController.swift */,
+				13A9513A29D7236D004466A9 /* Main.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A9513029D7236D004466A9 /* MoTimer1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A9514529D7236F004466A9 /* Build configuration list for PBXNativeTarget "MoTimer1" */;
+			buildPhases = (
+				13A9512D29D7236D004466A9 /* Sources */,
+				13A9512E29D7236D004466A9 /* Frameworks */,
+				13A9512F29D7236D004466A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoTimer1;
+			productName = BoxingCounter;
+			productReference = 13A9513129D7236D004466A9 /* MoTimer1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A9512929D7236D004466A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13A9513029D7236D004466A9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 13A9512C29D7236D004466A9 /* Build configuration list for PBXProject "MoTimer1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A9512829D7236D004466A9;
+			productRefGroup = 13A9513229D7236D004466A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A9513029D7236D004466A9 /* MoTimer1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A9512F29D7236D004466A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A9514129D7236F004466A9 /* LaunchScreen.storyboard in Resources */,
+				1331648929DC25C700BAA296 /* MagneticScope-AxelF.mp3 in Resources */,
+				13A9513E29D7236F004466A9 /* Assets.xcassets in Resources */,
+				13A9513C29D7236D004466A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A9512D29D7236D004466A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A9513929D7236D004466A9 /* ViewController.swift in Sources */,
+				13A9513529D7236D004466A9 /* AppDelegate.swift in Sources */,
+				13FB74E92A1D3E40000D414C /* TimerLogic .swift in Sources */,
+				13C618B82A1C2BB80002CE7A /* Statistics.swift in Sources */,
+				13A9513729D7236D004466A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A9513A29D7236D004466A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A9513B29D7236D004466A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A9513F29D7236F004466A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A9514029D7236F004466A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A9514329D7236F004466A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13A9514429D7236F004466A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A9514629D7236F004466A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "/Users/adamwest/Desktop/IOS/Projects /MoTimer1/MoTimer1.xcodeproj";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WK3Q2J5S3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/adamwest/Desktop/IOS/Projects /MoTimer1/MoTimer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoTimerV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13A9514729D7236F004466A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "/Users/adamwest/Desktop/IOS/Projects /MoTimer1/MoTimer1.xcodeproj";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WK3Q2J5S3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/adamwest/Desktop/IOS/Projects /MoTimer1/MoTimer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoTimerV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A9512C29D7236D004466A9 /* Build configuration list for PBXProject "MoTimer1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A9514329D7236F004466A9 /* Debug */,
+				13A9514429D7236F004466A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A9514529D7236F004466A9 /* Build configuration list for PBXNativeTarget "MoTimer1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A9514629D7236F004466A9 /* Debug */,
+				13A9514729D7236F004466A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A9512929D7236D004466A9 /* Project object */;
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MoTimer1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y0f-Na-V2E" userLabel="Main Stack ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oUX-1G-VJB" userLabel="Stack Labels">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="558"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WqU-g8-Mec" userLabel="Time Label">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="179.33333333333334"/>
+                                                <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="90"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xs0-jT-sW8" userLabel="Gif">
+                                                <rect key="frame" x="0.0" y="189.33333333333331" width="393" height="179.33333333333331"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW9-mw-uQy" userLabel="Round Label">
+                                                <rect key="frame" x="0.0" y="378.66666666666669" width="393" height="179.33333333333331"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="huA-pY-vX6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NLY-UJ-dAv" userLabel="Stack Counts">
+                                        <rect key="frame" x="0.0" y="559" width="393" height="200"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" semanticContentAttribute="playback" translatesAutoresizingMaskIntoConstraints="NO" id="F2h-Mf-AMJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </pickerView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oLG-Bz-sTx" userLabel="Stack Buttons">
+                                                <rect key="frame" x="0.0" y="110" width="393" height="90"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fe-fk-gGz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="90"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="">
+                                                            <imageReference key="image" image="restart.circle.fill" catalog="system" symbolScale="large"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="startButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fzC-l7-QPq"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZm-3S-m2M">
+                                                        <rect key="frame" x="137.66666666666666" y="0.0" width="117.66666666666666" height="90"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="">
+                                                            <imageReference key="image" image="pause.circle" catalog="system" symbolScale="large"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="pauseButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQS-ce-dpp"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNP-k7-lHc">
+                                                        <rect key="frame" x="275.33333333333331" y="0.0" width="117.66666666666669" height="90"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="">
+                                                            <imageReference key="image" image="restart.circle" catalog="system" symbolScale="large"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="restartButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oZP-S1-dxt"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="2dN-QI-5Ac"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y0f-Na-V2E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ByM-03-VtE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y0f-Na-V2E" secondAttribute="bottom" id="Ly5-RZ-3Dy"/>
+                            <constraint firstItem="Y0f-Na-V2E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Orw-0h-Ej3"/>
+                            <constraint firstAttribute="trailing" secondItem="Y0f-Na-V2E" secondAttribute="trailing" id="Z4v-Sg-HiD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gifAnimationImage" destination="xs0-jT-sW8" id="sGx-GU-qK6"/>
+                        <outlet property="hoursGoneLabel" destination="nW9-mw-uQy" id="COP-2o-I9V"/>
+                        <outlet property="minuteCountPicker" destination="F2h-Mf-AMJ" id="kVe-A0-odJ"/>
+                        <outlet property="pauseButton" destination="jZm-3S-m2M" id="PoA-Np-Arf"/>
+                        <outlet property="restartButton" destination="bNP-k7-lHc" id="F8S-f7-d3N"/>
+                        <outlet property="secondsLabel" destination="WqU-g8-Mec" id="NVn-Jx-b5p"/>
+                        <outlet property="startButton" destination="1fe-fk-gGz" id="eCl-QG-LBm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause.circle" catalog="system" width="128" height="123"/>
+        <image name="restart.circle" catalog="system" width="128" height="123"/>
+        <image name="restart.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
